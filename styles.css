@@ -40,3 +40,8 @@ input {
     height: 30px;
     font-size: 1.4rem;
 }
+
+img {
+    height: 300px;
+    width: 300px;
+}
