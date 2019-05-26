@@ -18,6 +18,14 @@ const getUsers = async (user) => {
     return { data: data};
 };
 
+const getWeekly = async (user) => {
+    const api_call = await fetch (``);
+
+    const wk_data = await api_call.json();
+
+    return { wk_data: data };
+}
+ 
 const showResults = () => {
     getUsers(userInput.value).then((results) => {
         console.log(results);
